@@ -37,5 +37,5 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 
-streamlit.text("The fruit load list contains:")
-streamlit.text(my_data_row)
+streamlit.header("The fruit load list contains:")
+streamlit.dataframe(my_data_row)
